@@ -7,12 +7,12 @@
 <body>
   <div style="margin-left:100px;width:25%">
 		<p style="font-size:300%;margin-bottom:-20px"> C <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
-    <p style="font-size:300%;margin-bottom:-20px"> H <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
-    <p style="font-size:300%;margin-bottom:-20px"> A <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
-    <p style="font-size:300%;margin-bottom:-20px"> G <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
-    <p style="font-size:300%;margin-bottom:-20px"> F <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
-    <p style="font-size:300%;margin-bottom:-20px"> E <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
     <p style="font-size:300%;margin-bottom:-20px"> D <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
+    <p style="font-size:300%;margin-bottom:-20px"> E <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
+    <p style="font-size:300%;margin-bottom:-20px"> F <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
+    <p style="font-size:300%;margin-bottom:-20px"> G <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
+    <p style="font-size:300%;margin-bottom:-20px"> A <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
+    <p style="font-size:300%;margin-bottom:-20px"> H <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
     <p style="font-size:300%;margin-bottom:-20px"> C <canvas nx="button" width="100px" height="100px" style="float:right">Button</canvas> </p> <br>
 </div>
  <script>
@@ -26,7 +26,7 @@ init();
        gain.gain.value = 1;
        osc = audioContext.createOscillator();
        osc.type = 'sine';
-       osc.frequency.value = 400;
+       osc.frequency.value = 262;
        osc.connect(gain);
        osc.start(0);
    }
